@@ -68,10 +68,3 @@ Recomiendo tener PHP >= 8.0 (según Dompdf y Endroid) y las extensiones:
 
 Puedes comprobar desde PHP con un pequeño script `php -r "print_r(get_loaded_extensions());"` o ejecutar `docs/check_requirements.php` (si se añade).
 
-## Si quieres, lo hago por ti
-Puedo:
-- Añadir `scripts/bootstrap-windows.ps1` (ya creado).
-- Añadir `docs/SETUP.md` (ya creado).
-- Preparar un commit de `vendor/` para vendorizar y dejarlo listo (si confirmas, lo haré y te mostraré el tamaño/impacto).
-
-Dime si quieres que proceda a commitear `vendor/` (vendorizar) o prefieres que dejemos el bootstrap + README y cada dev ejecute el script.
